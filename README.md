@@ -1,6 +1,6 @@
 # AWS Inventory Checker
 
-This Python script checks the inventory of your AWS EC2 instances across multiple regions to determine if the "xz-utils" package is installed. It then generates a CSV report with the results.
+This script checks all your instances across different AWS regions to determine if they have a specified software package installed. By default, it checks for the "xz-utils" package, but you can specify any package you want to check. After the check, it generates a CSV file summarizing the results.
 
 ## Prerequisites
 
