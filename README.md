@@ -26,11 +26,15 @@ cd aws-inventory-checker
 pip install -r requirements.txt
 ```
 # Usage
-Update the regions list in the script with the AWS regions where your instances are located.
+Set the environment variables for the regions and application required
+```bash
+export REGIONS=eu-west-1,eu-central-1,us-east-1,eu-west-2
+export FILTER_VALUES=xz-utils
+```
 
 Run the script:
 ```bash
 python inventory_checker.py
 ```
 
-3. Once the script completes execution, you'll find the generated CSV report named output.csv in the same directory.
+3. Once the script completes execution, you'll find the generated CSV report named output.csv in the same directory. It will also print out the output for each instance
