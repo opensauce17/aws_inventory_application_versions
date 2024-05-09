@@ -2,7 +2,15 @@
 
 This Python script checks the inventory of your AWS EC2 instances across multiple regions to determine if the "xz-utils" package is installed. It then generates a CSV report with the results.
 
-Prerequisites
-Python 3.x installed on your system
-AWS CLI configured with appropriate access credentials
-Boto3 library installed (pip install boto3)
+## Prerequisites
+
+- Python 3.x installed on your system
+- AWS CLI configured with appropriate access credentials
+- Boto3 library installed (`pip install boto3`)
+
+## Installation
+
+1. Clone this repository to your local machine:
+
+```bash
+git clone https://github.com/yourusername/aws-inventory-checker.git
